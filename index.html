@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/index.js" defer></script>
+    <script src = "js/helpers.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Ruleta</title>
+</head>
+<body>
+   <h1>¡¡Haz tu propia Ruleta!!</h1>
+   <div id="container">
+      <div id="marcador">
+          <div id="cartelGanador">
+             <p id="ganadorTexto">¡Click en "Girar" para iniciar!</p>
+           </div>
+        </div>
+      <div id="ruleta"></div>
+        <div id="sortear">
+         <button>
+            Girar
+          </button>
+        </div>
+    </div>
+    <dialog type="modal">
+        <div id="tituloForm">
+            <p>Nombre</p>
+            <p>Probabilidad (%)</p>
+        </div>
+        <div id="formContainer">
+        </div>
+        <button id="agregar">+</button>
+        <p>Total: <span id="porcentaje">100</span>%</p>
+        <button id="aceptar">Cambiar</button>
+        <button id="cancelar">Cancelar</button>
+    </dialog>
+   
+   <footer>
+    <p>Hecho por Nadine 😎</p>
+   </footer>
+</body>
+</html>
